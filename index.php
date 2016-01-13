@@ -20,7 +20,11 @@ and open the template in the editor.
         <h3> Si es el administrador de la liga estos privilegios pasarían al segundo con mas antigüedad.</h3>
         <h3> ? Si es el ultimo coach de una liga esta sera borrada.</h3>
         <h3> ?si el coach se da de baja no puede volver a entrar en la liga </h3>
-        
+        <form method="get" action="??dar de baja">
+            <input type="button" value="Dar De Baja">
+            
+            
+        </form>
     </html>
     </body>
 </html>
