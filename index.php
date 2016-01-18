@@ -22,13 +22,14 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
-    <html> <h3> Se devuelven los jugadores asignado al coach a la lista de disponibles de la liga a la que pertenece.</h3>
-        <h3> Se eliminaran los registros de puntuación del coach.</h3>
-        <h3> Eliminar las referencias al coach de las diferentes tablas.</h3>
-        <h3> Se expulsara de la liga a la que esta unida.</h3>
-        <h3> Si es el administrador de la liga estos privilegios pasarían al segundo con mas antigüedad.</h3>
-        <h3> ? Si es el ultimo coach de una liga esta sera borrada.</h3>
-        <h3> ?si el coach se da de baja no puede volver a entrar en la liga </h3>
+    <html> <h4> Se devuelven los jugadores asignado al coach a la lista de disponibles de la liga a la que pertenece.</h4>
+        <h4> Se eliminaran los registros de puntuación del coach.</h4>
+        <h4> Eliminar las referencias al coach de las diferentes tablas.</h4>
+        <h4> Se expulsara de la liga a la que esta unida.</h4>
+        <h4> Si es el administrador de la liga estos privilegios pasarían al segundo con mas antigüedad.</h4>
+        <h4> ? Si es el ultimo coach de una liga esta sera borrada.</h4>
+        <h4> ?si el coach se da de baja no puede volver a entrar en la liga </h4>
+        <p>
         <form method="get" action="??dar de baja">
          <!--   <input type="button" value="Dar De Baja"> -->
             <input type="button" onclick="alert('si continuas perderas las puntuaciones del coach')" value="Dar de Baja">                 
